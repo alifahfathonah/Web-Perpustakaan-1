@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	font-family: Malgun Gothic Regular;
+}
+
+.container{
+	height: 400px;
+	margin-left: 27%;
+	margin-right: 27%;
+	margin-top: 8%;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+.kiri{
+	width: 330px;
+	height: 100%;
+	float: left;
+}
+.kanan{
+	width: 280px;
+	float: right;
+	height: 100%;
+	background-color: white;
+}
+.kanan img{
+	width: 20px;
+}
+.kanan input[type="submit"]{
+	width: 100%;
+	background: none;
+	border: 1px solid #303030;
+	height: 30px;
+	border-radius: 5px;
+	color: #303030;
+	transition: 0.3s;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.kanan input[type="submit"]:hover{
+	background-color: #303030;
+	color: white;
+}
+.kanan input[type="text"], .kanan input[type="password"]{
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #808080;
+}
+.kanan table{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.login{
+	margin-top: 25%;
+}
+.login h3{
+	text-align: center;
+}
+.login p{
+	text-align: center;
+	margin-top: 25%;
+}
+.login input[name="kembali"]{
+	width: 100px;
+	margin-left: 32%;
+	margin-right: 32%;
+}

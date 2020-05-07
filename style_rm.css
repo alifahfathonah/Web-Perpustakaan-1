@@ -1,0 +1,240 @@
+body{
+	margin: 0;
+	font-family: Malgun Gothic Regular;
+	background-color: #f0f0f0;
+	font-size: 13px;
+}
+.navigasi{
+	height: 635px;
+	float: left;
+	width: 15%;
+	background-color: #202828;
+	z-index: 1000;
+	position: relative;
+	left: 0;
+	position: fixed;
+	border-right: 1px solid #808080;
+}
+.nav{
+	background-color: #f0f0f0;
+	height: 50px;
+	float: left;
+	width: 100%;
+}
+.nav p{
+	color: #303030;
+	text-align: center;
+}
+.menu{
+	margin-left: 0px;
+}
+.menu-isi p{
+	margin-left: 25px;
+}
+.menu-isi a{
+	color: #f0f0f0;
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	height: 50px;
+	transition: 0.2s;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.menu-isi a:hover{
+	background-color: #303840;
+}
+.head{
+	float: left;
+	width: 85%;
+	border-bottom: 1px solid #808080;
+	height: 50px;
+	background-color: white;
+	top: 0;
+	position: fixed;
+	z-index: 999;
+	margin-left: 15%;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+}
+.head img{
+	width: 35px;
+	float: left;
+	padding: 10px;
+	margin-left: 25px;
+}
+.head h3{
+	margin-top: 15px;
+	letter-spacing: 1px;
+	float: left;
+}
+.cari{
+	float: right;
+	margin: 10px;
+
+}
+.kolom input[type="text"]{
+	padding: 5px;
+	border: 1px solid #808080;
+	width: 250px;
+	float: left;
+}
+.kolom button{
+	float: right;
+	padding: 5px;
+	width: 40px;
+	cursor: pointer;
+	margin-right: 20px;
+	border: 1px solid #808080;
+	background: none;
+	transition: 0.3s;
+	border-left: none;
+}
+.kolom button:hover{
+	background-color: #303030;
+	color: white;
+	border: 1px solid #303030;
+	border-left: none;
+}
+.logout a{
+	margin-top: 135px;
+}
+.logout a:hover{
+	background-color: firebrick;
+}
+
+/* Content */
+.content{
+	float: left;
+	margin-top: 51px;
+	width: 85%;
+	height: wrap-content;
+	margin-left: 15%;
+}
+.alamat-link{
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 5px;
+	border-bottom: 1px solid #808080;
+	font-size: 14px;
+	color: #303030;
+}
+.alamat-link a{
+	text-decoration: none;
+	color: #303030;
+}
+.alamat-link p{
+}
+.tabel{
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+	font-size: 13px;
+	border: 1px solid white;
+
+}
+.tabel-utama{
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+	font-size: 13px;
+	border: 1px solid white;
+}
+.tabel-utama tr:nth-child(odd){
+	background: #f5f5f5;
+}
+.judul-tab{
+	background-color: #e3e3e3;
+	height: 40px;
+	margin-top: 0px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	padding: 5px;
+	color: #303030;
+}
+.judul-tab p{
+	margin: 10px;
+}
+.judul-tab img{
+	width: 20px;
+	float: left;
+	margin: 10px;
+}
+input[name="tambah-data"]{
+	padding: 7px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	border: 1px solid #303030;
+	background: none;
+	color: #303030;
+	transition: 0.3s;
+	cursor: pointer;
+}
+input[name="tambah-data"]:hover{
+	background-color: #303030;
+	color: white;
+	width: 130px;
+}
+table{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.icon-aksi{
+	width: 17px;
+}
+
+/* Tambah Data */
+.isi-form input{
+	padding: 5px;
+	width: 400px;
+	border: none;
+	border-bottom: 1px solid #808080;
+}
+.isi-form textarea{
+	width: 400px;
+	padding: 5px;
+	height: 60px;
+	border: none;
+	border-bottom: 1px solid #808080;
+}
+.isi-form input[type="submit"]{
+	width: 100px;
+	height: 30px;
+	background: none;
+	border: 1px solid #303030;
+	border-radius: 5px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.isi-form input[type="submit"]:hover{
+	background-color: #303030;
+	color: white;
+	border: none;
+	border-bottom: 1px solid #808080;
+}
+.isi-form select{
+	width: 400px;
+	padding: 5px;
+}
+
+/* Footer */
+.footer{
+	height: 40px;
+	background-color: #303030;
+	float: left;
+	width: 100%;
+	margin-top: 35px;
+}
+.foot p{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
